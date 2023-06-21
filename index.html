@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zoro</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="./images/Screenshot 2023-05-24 145251.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Round"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/966fe5d50b.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-wrapper">
+      <section class="header">
+        
+          <aside class="row-1">
+            <aside class="col-md-6">
+              <h1 class="logo-1">ZORO</h1>
+            </aside>
+            <aside class="col-md-6">
+              <ul class="list-1">
+                <li onmouseover="showCard(1)" onmouseout="hideCard(1)">Home</li>
+              <li onmouseover="showCard(2)" onmouseout="hideCard(2)">About</li>
+              <li onmouseover="showCard(3)" onmouseout="hideCard(3)">Service</li>
+              <li onmouseover="showCard(4)" onmouseout="hideCard(4)">Help</li>
+              <li onmouseover="showCard(5)" onmouseout="hideCard(5)">Contact</li>
+              </ul>
+              <section class="cardss">
+                <div class="container">
+                  <aside class="card" id="card1">
+                    <h2>Home Card</h2>
+                    <p>This is the card for the Home section.</p>
+                  </aside>
+                  <aside class="card" id="card2">
+                    <h2>About Card</h2>
+                    <p>This is the card for the About section.</p>
+                  </aside>
+                  <aside class="card" id="card3">
+                    <h2>Service Card</h2>
+                    <p>This is the card for the Service section.</p>
+                  </aside>
+                  <aside class="card" id="card4">
+                    <h2>Help Card</h2>
+                    <p>This is the card for the Help section.</p>
+                  </aside>
+                  <aside class="card" id="card5">
+                    <h2>Contact Card</h2>
+                    <p>This is the card for the Contact section.</p>
+                  </aside>
+                </div>
+              </section>
+            </aside>
+          </aside>
+          
+          <aside class="row-2">
+            <div>
+              <h1 class="dash-1">ZORO</h1>
+              <h1 class="dash-2">
+                The Ultimate<br />
+                parallax Website
+              </h1>
+            </div>
+
+            <div><a href="" class="btn-1">Start Now</a></div>
+          </aside>
+          <aside class="row-right-2">
+            <span onclick="toggleSidebar()" class="material-icons-round menu"
+              >menu</span
+            >
+
+            <!-- <i onclick="myFunction()" class="fa-solid fa-bars menu"></i> -->
+          </aside>
+        
+      </section>
+      
+
+      <!----------------------------section-2---------------------->
+
+      <section class="slider">
+        <div class="container">
+          <aside class="tab-buttons">
+            <button onclick="function1()" class="tab-btn">Home</button>
+            <button onclick="function2()" class="tab-btn">Service</button>
+            <button onclick="function3()" class="tab-btn two">About us</button>
+            <button onclick="function4()" class="tab-btn three">
+              More info
+            </button>
+          </aside>
+          <aside class="row-3" id="myDiv1">
+            <aside class="tab content1">
+              <aside class="left-row">
+                <img class="img" src="../images/11668816_20945381 (1).jpg" />
+              </aside>
+            </aside>
+            <aside class="tab content1">
+              <aside class="right-row">
+                <div class="startup-txt">
+                  <h3 style="color: rgb(5, 109, 109)">Try It Now</h3>
+                  <h1 class="startup-txt">Startups Will Love it</h1>
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.<br />
+                    Dolorem perferendis rerum omnis voluptatum qui porro
+                    <br />quibusdam veritatis alias ad, tempore exercitationem
+                    quia
+                  </p>
+                </div>
+                <aside class="startup-cards">
+                  <aside class="s-card-1">
+                    <div class="card-1-sub">
+                      <span class="material-icons-round stat">
+                        leaderboard
+                      </span>
+                      <h3>leaderboard</h3>
+                    </div>
+                    <p>
+                      Lorem ipsum dolor amet<br />
+                      consectetur adipisicing .<br />
+                      Repellendus molestias
+                    </p>
+                  </aside>
+                  <aside class="s-card-2">
+                    <div class="card-1-sub">
+                      <span class="material-icons-round stat">
+                        query_stats
+                      </span>
+                      <h3>Overview</h3>
+                    </div>
+                    <p>
+                      Lorem ipsum dolor sit<br />
+                      amet consectetur <br />adipisicing . Repellendus<br />
+                    </p>
+                  </aside>
+                </aside>
+              </aside>
+            </aside>
+          </aside>
+        </div>
+        <aside class="tab content2" id="myDIV">
+          <div class="taab">
+            <h1>zoro</h1>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              <br />Odio vitae, non cupiditate officia labore molestias qui nam
+              <br />laboriosam, dignissimos amet, quidem repellendus odit?
+              <br />Quibusdam voluptatem dolorum iure accusantium doloremque
+              placeat.
+            </p>
+          </div>
+          <img class="tab2img" src="./images/10172825_8401 (1) (1).jpg" />
+        </aside>
+        <aside class="tab content3" id="myDIV2">
+          <img class="div2img" src="./images/11235921_11104 (1).jpg" />
+          <div class="taab">
+            <h1>zoro</h1>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              <br />Odio vitae, non cupiditate officia labore molestias qui nam
+              <br />laboriosam, dignissimos amet, quidem repellendus odit?
+              <br />Quibusdam voluptatem dolorum iure accusantium doloremque
+              placeat.
+            </p>
+          </div>
+        </aside>
+        <aside class="tab content3" id="myDIV3">
+          <img class="div3img" src="./images/6512261_22920 (1).jpg" />
+          <div class="taab">
+            <h1>zoro</h1>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              <br />Odio vitae, non cupiditate officia labore molestias qui nam
+              <br />laboriosam, dignissimos amet, quidem repellendus odit?
+              <br />Quibusdam voluptatem dolorum iure accusantium doloremque
+              placeat.
+            </p>
+          </div>
+        </aside>
+      </section>
+      <!---------------------section-3----------------------------------------->
+
+      <section class="cards">
+        <div class="container">
+
+          
+
+
+
+          <aside class="row-4">
+           
+<section class="cards transition-section">
+  <aside class="card-1">
+    <aside class="top-row">
+      <img
+        class="card-img"
+        src="./images/11668816_20945381 (1).jpg"
+      />
+    </aside>
+    <aside class="bottom-row">
+      <div>
+        <h1 style="color: rgb(8, 85, 111)">ZORO</h1>
+        <p class="card-p">
+          Lorem ipsum dolor sit, amet<br />
+          consectetur adipisicing elit. Recusandae<br />
+          asperiores vitae rerum assumenda<br />
+          iusto facilis laborum sed <br />maxime aut eligendi
+          suscipit<br />
+          ipsam consectetur aliquid
+        </p>
+      </div>
+
+      <div class="view-btn">
+        <a href="" class="card-btn">View </a>
+      </div>
+    </aside>
+  </aside>
+  <aside class="card-1">
+    <aside class="top-row">
+      <img class="card-img" src="./images/7778903_3754379.jpg" />
+    </aside>
+    <aside class="bottom-row">
+      <div>
+        <h1 style="color: rgb(8, 85, 111)">ZORO</h1>
+        <p class="card-p">
+          Lorem ipsum dolor sit, amet<br />
+          consectetur adipisicing elit. Recusandae<br />
+          asperiores vitae rerum assumenda<br />
+          iusto facilis laborum sed <br />maxime aut eligendi
+          suscipit<br />
+          ipsam consectetur aliquid
+        </p>
+      </div>
+
+      <div class="view-btn">
+        <a href="" class="card-btn">View </a>
+      </div>
+    </aside>
+  </aside>
+
+  <aside class="card-1">
+    <aside class="top-row">
+      <img class="card-img" src="./images/20855032_6257240.jpg" />
+    </aside>
+    <aside class="bottom-row">
+      <div>
+        <h1 style="color: rgb(8, 85, 111)">ZORO</h1>
+        <p class="card-p">
+          Lorem ipsum dolor sit, amet<br />
+          consectetur adipisicing elit. Recusandae<br />
+          asperiores vitae rerum assumenda<br />
+          iusto facilis laborum sed <br />maxime aut eligendi
+          suscipit<br />
+          ipsam consectetur aliquid
+        </p>
+      </div>
+
+      <div class="view-btn">
+        <a href="" class="card-btn">View </a>
+      </div>
+    </aside>
+  </aside>
+
+  <aside class="card-1 one">
+    <aside class="top-row">
+      <img class="card-img" src="./images/11235921_11104 (1).jpg" />
+    </aside>
+    <aside class="bottom-row">
+      <div>
+        <h1 style="color: rgb(8, 85, 111)">ZORO</h1>
+        <p class="card-p">
+          Lorem ipsum dolor sit, amet<br />
+          consectetur adipisicing elit. Recusandae<br />
+          asperiores vitae rerum assumenda<br />
+          iusto facilis laborum sed <br />maxime aut eligendi
+          suscipit<br />
+          ipsam consectetur aliquid
+        </p>
+      </div>
+
+      <div class="view-btn">
+        <a href="" class="card-btn">View </a>
+      </div>
+    </aside>
+  </aside>
+</aside>
+</div>
+</section>
+
+          
+
+           
+      </section>
+      
+      <!--------------------------section-4--------------------------->
+      <section class="back-g">
+        <div class="container">
+          <div class="row-5">
+            <!-- Add this class to the "cards" section -->
+            <aside class="transition-section">
+              <!-- Aside content here -->
+              <aside class="texts">
+                <div>
+                  <span class="material-icons-round z"> polymer </span>
+                </div>
+                <div>
+                  <h1>ZORO</h1>
+                  <p>
+                    Lorem ipsum dolor,<br />
+                    sit amet consectetur<br />
+                    adipisicing elit.<br />
+                    Quibusdam illo porro<br />
+                    perferendis
+                  </p>
+                </div>
+              </aside>
+
+              <aside class="texts">
+                <div>
+                  <span class="material-icons-round z"> polymer </span>
+                </div>
+                <div>
+                  <h1>ZORO</h1>
+                  <p>
+                    Lorem ipsum dolor,<br />
+                    sit amet consectetur<br />
+                    adipisicing elit.<br />
+                    Quibusdam illo porro<br />
+                    perferendis
+                  </p>
+                </div>
+              </aside>
+              <aside class="texts">
+                <div>
+                  <span class="material-icons-round z"> polymer </span>
+                </div>
+                <div>
+                  <h1>ZORO</h1>
+                  <p>
+                    Lorem ipsum dolor,<br />
+                    sit amet consectetur<br />
+                    adipisicing elit.<br />
+                    Quibusdam illo porro<br />
+                    perferendis
+                  </p>
+                </div>
+              </aside>
+
+              
+            <aside class="texts">
+              <div>
+                <span class="material-icons-round z"> polymer </span>
+              </div>
+              <div>
+                <h1>ZORO</h1>
+                <p>
+                  Lorem ipsum dolor,<br />
+                  sit amet consectetur<br />
+                  adipisicing elit.<br />
+                  Quibusdam illo porro<br />
+                  perferendis
+                </p>
+              </div>
+            </aside>
+  
+            </aside>
+
+           
+
+           
+
+           
+          </div>
+        </div>
+      </section>
+      <!--------------------------section-5--------------------------->
+
+      <section class="footer">
+        <aside class="row-6">
+          <aside class="box-1">
+            <i class="fa-brands fa-facebook foot-logo"></i>
+            <i class="fa-brands fa-twitter foot-logo"></i>
+            <i class="fa-brands fa-instagram foot-logo"></i>
+          </aside>
+          <aside class="box-2">
+            <h3 class="foot-txt">Info</h3>
+            <h3 class="foot-txt">Support</h3>
+            <h3 class="foot-txt">Marketing</h3>
+          </aside>
+          <aside class="box-3">
+            <i class="fa-solid fa-copyright copy-logo"></i>
+            <p>All right reserved 2020</p>
+          </aside>
+        </aside>
+      </section>
+      <!--------------------------side-bar--------------------------->
+      <section id="side-bar">
+        <aside class="side-nav">
+          <ul class="side-list">
+            <h1>zoro</h1>
+            <li>Home</li>
+            <li>About</li>
+            <li>Service</li>
+            <li>Help</li>
+            <li>Contact</li>
+          </ul>
+        </aside>
+      </section>
+    </div>
+    <!--------------------------script--------------------------->
+    <script>
+      function toggleSidebar() {
+        var sidebar = document.getElementById("side-bar");
+        sidebar.classList.toggle("side-bar-2");
+      }
+
+      function showElement(elementId) {
+        var element = document.getElementById(elementId);
+        element.style.display = "flex";
+      }
+
+      function hideElement(elementId) {
+        var element = document.getElementById(elementId);
+        element.style.display = "none";
+      }
+
+      function function1() {
+        hideElement("myDIV3");
+        hideElement("myDIV");
+        hideElement("myDIV2");
+        showElement("myDiv1");
+      }
+
+      function function2() {
+        hideElement("myDiv1");
+        hideElement("myDIV3");
+        hideElement("myDIV2");
+        showElement("myDIV");
+      }
+
+      function function3() {
+        hideElement("myDiv1");
+        hideElement("myDIV");
+        hideElement("myDIV2");
+        showElement("myDIV3");
+      }
+
+      function function4() {
+        hideElement("myDiv1");
+        hideElement("myDIV");
+        hideElement("myDIV2");
+        showElement("myDIV3");
+      }
+
+      window.addEventListener("scroll", function () {
+        var row1 = document.querySelector(".row-1");
+        var scrollPosition = window.pageYOffset;
+        var shouldAddBackground = scrollPosition > 400;
+        row1.classList.toggle("row-1-background", shouldAddBackground);
+      });
+
+      function showCard(cardNumber) {
+      var card = document.getElementById(`card${cardNumber}`);
+      card.classList.add("show");
+    }
+
+    function hideCard(cardNumber) {
+      var card = document.getElementById(`card${cardNumber}`);
+      card.classList.remove("show");
+    }
+
+    function handleScroll() {
+      var cards = document.querySelectorAll(".card");
+      cards.forEach(function (card) {
+        var cardTop = card.getBoundingClientRect().top;
+        var windowHeight = window.innerHeight;
+
+        if (cardTop < windowHeight * 0.8) {
+          card.classList.add("show");
+        } else {
+          card.classList.remove("show");
+        }
+      });
+    }
+window.addEventListener('scroll', revealCards);
+
+function revealCards() {
+  var cardsSection = document.querySelector('.transition-section');
+  var windowHeight = window.innerHeight;
+  var cardsSectionTop = cardsSection.getBoundingClientRect().top;
+
+  if (cardsSectionTop < windowHeight) {
+    cardsSection.classList.add('show');
+  } else {
+    cardsSection.classList.remove('show');
+  }
+}
+// Add this JavaScript code to your script
+window.addEventListener('scroll', revealSections);
+
+function revealSections() {
+  var sections = document.querySelectorAll('.transition-section');
+  var windowHeight = window.innerHeight;
+
+  sections.forEach(function (section) {
+    var sectionTop = section.getBoundingClientRect().top;
+
+    if (sectionTop < windowHeight) {
+      section.classList.add('show');
+    } else {
+      section.classList.remove('show');
+    }
+  });
+}
+
+
+    </script>
+    <!--------------------------Tabcontent--------------------------->
+  </body>
+</html>
